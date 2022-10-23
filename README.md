@@ -11,10 +11,18 @@ You can skip the question if you are not able to answers.
 
 ### Last Important Information For All .. 😢
 
+<<<<<<< HEAD
 ***This Project is under development*** .. So if you feel the questions are to easy to Solve dont please dont blame 🙏 me as I am just developing my Project for fun. 
 
 ## Updating Schedule .. 
 _Major Updates will be on Wednesday and Sunday_
+=======
+***This Project is under development*** .. 
+So if you feel the questions are to easy to Solve dont please dont blame 🙏 me as I am just developing my Project for fun. 
+
+## Schedule .. 
+_Version Updates will be on Wednesday and Sunday_
+>>>>>>> e7adff14bde49d6ef602ebb2db2d5974808c0ecf
 
 * Monday : UI updates and Questions Additions 
 * Tuesday : Questions Additions 
@@ -26,6 +34,7 @@ _Major Updates will be on Wednesday and Sunday_
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -69,3 +78,5 @@ _Major Updates will be on Wednesday and Sunday_
 
 
 A Quiz web open for all .. This will be the Basic UI only more Functionality will be added on every Alternative days
+=======
+>>>>>>> e7adff14bde49d6ef602ebb2db2d5974808c0ecf
