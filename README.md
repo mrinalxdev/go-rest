@@ -15,7 +15,6 @@ So if you feel the questions are to easy to Solve dont please dont blame 🙏 me
 
 ## Schedule .. 
 _Version Updates will be on Wednesday and Sunday_
->>>>>>> e7adff14bde49d6ef602ebb2db2d5974808c0ecf
 
 * Monday : UI updates and Questions Additions 
 * Tuesday : Questions Additions 
