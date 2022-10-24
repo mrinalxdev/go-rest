@@ -1,4 +1,4 @@
-k# Quizverse ❓
+# Quizverse ❓
 **`V 0.0.1 BETA`** **`Currently Under Development`**
 ### Practise Your Quizing Skills with Quizverse.
 Learn about everything and anything to kill time or educate yourself with Quizverse. Quizverse is the ultimate website for quizzing for all your qualification needs!  All you need to do is go to [Quizverse](https://www.collinsdictionary.com/dictionary/english/quizzing) and we'll tell you everything you want to know! Browse by grade level, and test your knowledge with interactive quizzes designed by educators. From past-time activities to practical knowledge development, Quizverse lets you learn new things in a fun, interactive way. 
