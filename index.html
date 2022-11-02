@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZVERSE | Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>QuizVerse</title>
+    <link rel="stylesheet" href="mainstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- FONTS  -->
-    <link href="https://api.fontshare.com/v2/css?f[]=ranade@700,500&display=swap" rel="stylesheet">
+    <!-- FONTS -->
+    <link href="https://api.fontshare.com/v2/css?f[]=stardom@400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -18,62 +17,21 @@
         </div>
 
         <div class="logo">
-            <h1>QuizVerse</h1>
+            <a href="#">QuizVerse</a>
         </div>
 
-        <div class="cta-btn">
-            <button>Random Start</button>
+        <div class="searchbox">
+            <table class="element-cont">
+                <tr>
+                    <td>
+                        <input type="text" placeholder="Search for your field.." class="search">
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-magnifying-glass" class="search-img"></i>
+                    </td>
+                </tr>
+            </div>
         </div>
     </header>
-
-    <main>
-        <section class="container">
-            <div class="box">
-                <div class="img">
-                    <img src="Images/asset2.jpeg" alt="">
-                </div>
-
-                <div class="txt">
-                    <h1>Mrinal Pramanick</h1>
-                    <p>Prefered Generes : Sports and Tech</p>
-                    <p>Total No.of Quiz Attempted : 20</p>
-                    <p>Correct Answers Given : 10</p>
-                    <p>Unattempted Questions : 4</p>
-                    <p>Wrong Answers : 6</p>
-                    <p>Total No.of Rounds Cleared</p>
-                    
-                    <p><b>Score</b> : 10 / 20</p>
-                </div>
-
-                <div class="img2">
-                    <img src="Images/asset3.svg" alt="">
-                </div>
-            </div>
-        </section>
-
-        <section class="new-quiz">
-            <button class="new">
-                Start New Quiz
-            </button>
-            <button class="results">
-                Daily Learning
-            </button>
-        </section>
-
-
-        <section class="tip">
-            <h1>Rounds of QuizVerse</h1>
-            <i>There are multiple rounds for the prefered topic of your quiz </i>
-
-            <br>
-            <br>
-
-            <h3>Round 1 : General Round </h3>
-            <p>In this round the players will get 5 questions to answer . Answer at least 3 questions to qualify for the other Round</p>
-
-            <h3>Round 2 : Rapid Fire</h3>
-            <p>In this round the users need to answer the questions in a particular given time . The time given for the every question will be 10s</p>
-        </section>
-    </main>
 </body>
 </html>
