@@ -101,16 +101,41 @@ header {
 
 .tip {
     text-align: center;
-    border: 5px solid #000;
-    max-width: 98%;
     margin: auto;
     border-radius: 30px;
-    margin-bottom: 3rem;
-    box-shadow: 0px 21px 41px -21px rgba(0,0,0,0.42);
     padding: 20px 30px;
-}
+} 
 .tip h1 {
     padding-top: 10px;
     font-size: 2rem;
     font-family: 'Ranade', sans-serif;
 }
+
+
+.box-cards {
+    width: 100%;
+    margin: auto;
+    padding-left: 50px;
+}
+.cards {
+    width: 270px;
+    height: 200px;
+    border: 4px solid #000;
+    float: left;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    transition: 0.2s ease-in-out;
+}
+.cards h3, p {
+    padding-top: 20px;
+}
+
+.cards:hover {
+    transform: translateY(-10px);
+    border-radius: 20px 50px;
+    box-shadow: 10px 10px 23px 4px rgba(0,0,0,0.75);
+}
+
