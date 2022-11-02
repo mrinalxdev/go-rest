@@ -1,11 +1,21 @@
-# Quizverse ❓
+# Quizverse❓
 **`V 0.0.1 BETA`** **`Currently Under Development`**
 ### Practise Your Quizing Skills with Quizverse.
 Learn about everything and anything to kill time or educate yourself with Quizverse. Quizverse is the ultimate website for quizzing for all your qualification needs!  All you need to do is go to [Quizverse](https://www.collinsdictionary.com/dictionary/english/quizzing) and we'll tell you everything you want to know! Browse by grade level, and test your knowledge with interactive quizzes designed by educators. From past-time activities to practical knowledge development, Quizverse lets you learn new things in a fun, interactive way. 
 
+## 🔷Rounds of the Quizverse
 
-### 📖 Code Of Conduct
-No cheating for the answers are allowed or googling is allowed .. If you are taking it serieously then 🛑 Cheating and start preaparing. 
+_There will be multiple rounds for the Quizverse after entering_ 
+
+- Round 1 : General Round = 10 Easy Questions with 20 seconds in hand and the one who gives the correct answer of at least 9 questions will be headed over to anohter round.
+
+- Round 2 : Picture Perfect = 5 questions of famous Personalities of the prefered topic choosen by the user. Giving at least 3 questions will make you qualify for the anohter round. 
+
+- Round 3 : 10 Intermidiate Questions with 10 seconds in hand and the one who gives the correct answer will be declared as a WINNER !! .. 
+
+
+### 📖 Code Of Conduct for the Quiz
+No cheating for the answers are allowed or googling is allowed .. If you are taking it serieously then Stop Cheating and start preaparing. 
 You can skip the question if you are not able to answers. 
 
 
