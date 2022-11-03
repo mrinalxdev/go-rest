@@ -46,3 +46,15 @@ header {
 .searchbox i {
     cursor: pointer;
 }
+
+
+.cont-hero {
+    margin-top: 4rem;
+}
+.container {
+    margin: 10px auto;
+    width: 90%;
+}
+.carousel {
+    border: 2px;
+}
