@@ -49,12 +49,14 @@ header {
 
 
 .cont-hero {
-    margin-top: 4rem;
+    border: 1px solid #000;
+    margin-top: 2rem;
 }
-.container {
-    margin: 10px auto;
-    width: 90%;
+.container-hero {
+    border: 1px solid #000;
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: start;
 }
-.carousel {
-    border: 2px;
-}
+
+
