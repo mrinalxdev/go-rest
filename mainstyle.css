@@ -49,14 +49,45 @@ header {
 
 
 .cont-hero {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin-top: 2rem;
 }
 .container-hero {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     max-width: 80%;
     margin: 20px auto;
     text-align: start;
 }
 
+.slide1 {
+    padding: 12px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    font-family: sans-serif;
+    /* position: relative; */
+}
+.slide1 img {
+    width: 240px;
+    height: 250px;
+}
+.slide1 .txt {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.slide1 .txt p {
+    padding-top: 12px;
+}
+.btn-submit {
+    margin-top: 20px;
+}
+.btn-submit button {
+    padding: 12px 30px;
+    border-radius: 12px;
+    background: transparent;
+    font-size: 20px;
 
+}
