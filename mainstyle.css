@@ -16,7 +16,7 @@ header {
     cursor: pointer;
 }
 .logo a{
-    padding-left: 7rem;
+    padding-left: 15rem;
     color: #000;
     font-size: 3rem;
     font-family: 'Stardom', sans-serif;
@@ -60,7 +60,7 @@ header {
 }
 
 .slide1 {
-    padding: 12px;
+    padding: 20px;
     border: 1px solid #000;
     display: flex;
     align-items: center;
@@ -89,5 +89,10 @@ header {
     border-radius: 12px;
     background: transparent;
     font-size: 20px;
-
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+}
+.btn-submit button:hover {
+    background-color: #000;
+    color: #fff;
 }
