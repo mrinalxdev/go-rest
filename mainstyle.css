@@ -72,6 +72,7 @@ header {
 .slide1 img {
     width: 240px;
     height: 250px;
+    border-radius: 20px;
 }
 .slide1 .txt {
     margin-top: 40px;
@@ -95,4 +96,18 @@ header {
 .btn-submit button:hover {
     background-color: #000;
     color: #fff;
+}
+
+/* DAILY LEARN SECTION */
+
+.learn {
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 6rem;
 }
