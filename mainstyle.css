@@ -111,3 +111,7 @@ header {
     text-align: center;
     margin-top: 6rem;
 }
+.slide-box {
+    display: flex;
+    justify-content: space-evenly;
+}
