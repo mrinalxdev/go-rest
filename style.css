@@ -43,3 +43,10 @@ ul li {
     margin: 1rem 0;
     font-size: 1.2rem;
 }
+input{
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+}
