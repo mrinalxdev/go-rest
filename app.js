@@ -1,9 +1,9 @@
 const quizData = [
     {
-        question : 'Which is the Most used languages in history ?',
-        a : 'Talokans',
+        question : ' The party was formed by former state water resources minister T.M Jacob. Name the party',
+        a : 'Kuch bhi Party',
         b : 'Persian',
-        c : 'Afganisese',
+        c : ' Kerala Congress (Jacob)',
         d : 'Hindi',
         correct : 'd'
     }, 
