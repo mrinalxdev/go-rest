@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+/* font-family: 'Ubuntu', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* COLOR INTEGRATION --->  */
+/* BG COLOR--> {301E67, 645CBB}
+BTN COLOR AFTER HOVER--> {EBC7E6}  */
+*{
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+    background-color: #0A2647;
+    color: #fff;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* SIDENAVBAR HTML  */
+.box-cont-1 {
+    min-height: 100vh;
+    width: 220px;
+}
+.sideBar{
+    position: fixed;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+}
+.sideBar a{
+    text-align: center;
+    display: block;
+    padding: 30px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    transition: 0.1s all;
+}
+.sideBar a:hover {
+    background-color: #2C74B3;
+}
+.logo{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 22px;
+    padding: 20px 20px 90px 20px;
+}
+
+
+
+
+
+
+.box-cont-3 {
+    border-left: 1px solid #000;
+    width: 200px;
+}
