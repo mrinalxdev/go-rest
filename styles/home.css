@@ -26,6 +26,7 @@ a{
 .box-cont-1 {
     min-height: 100vh;
     width: 220px;
+    max-width: 220px;
 }
 .sideBar{
     position: fixed;
@@ -60,7 +61,33 @@ a{
 
 
 
+
+
+/* GENRES OF QUIZZING SECTION  */
 .box-cont-3 {
-    border-left: 1px solid #000;
-    width: 200px;
+    width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+.heading__cont-3{
+    margin: 20px;
+    background-color: #144272;
+    /* border: 2px solid #fff; */
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 20px 30px -1px rgba(0,0,0,0.32);
+}
+
+.genre__cont a {
+    display: block;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 40px;
+    text-align: center;
+    margin-top: 20px;
+    transition: 0.1s ease-in-out;
+}
+.genre__cont a:hover {
+    background-color: #144272;
 }
