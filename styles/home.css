@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
 /* font-family: 'Ubuntu', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
 
 /* COLOR INTEGRATION --->  */
 /* BG COLOR--> {301E67, 645CBB}
@@ -52,13 +52,79 @@ a{
 }
 .logo{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 22px;
-    padding: 20px 20px 90px 20px;
+    font-size: 16px;
+    padding: 20px 30px 90px 30px;
 }
 
+/* MAIN SECTION OF THE QUIZVERSE  */
+.box-cont-2 {
+    width: 710px;
+    max-height: 200vh;
+}
+.greet {
+    width: 60%;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.greet h3 {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 
+}
+.greet h1 {
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif;
+}
 
+/* MAIN CONT CSS */
 
+.main__box {
+    /* border: 1px solid; */
+    background-color: #144272;
+    width: 75%;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: 10px -10px 66px -6px rgba(0,0,0,0.75);
+    border-radius: 30px;
+}
+.main__box .img__main img{
+    width: 220px;
+    float: right;
+    margin-left: 20px;
+}
+.main__box .txt__main {
+    padding: 5px;
+    text-align: start;
+    margin-right: 12px;
+
+}
+.main__box .txt__main h1 {
+    font-size: 22px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 12px;
+}
+.main__box .txt__main p {
+    font-family: sans-serif;
+    line-height: 21px;
+    padding-bottom: 8px;
+}
+.btn-cta {
+    margin-top: 10px;
+}
+.btn-cta button {
+    padding: 10px 20px;
+    background-color: #144272;
+    border: 1px solid #fff;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: 0.1s ease-in-out;
+}
+.btn-cta button:hover {
+    background-color: #0A2647;
+}
 
 
 
@@ -76,7 +142,7 @@ a{
     padding: 10px 20px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 5px 20px 30px -1px rgba(0,0,0,0.32);
+    box-shadow: 10px -10px 44px -18px rgba(0,0,0,0.75);
 }
 
 .genre__cont a {
