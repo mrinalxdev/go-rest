@@ -32,6 +32,7 @@ a{
     text-align: center;
     padding: 20px;
     height: 100%;
+    font-size: 19px;
 }
 .sideBar a{
     text-align: center;
@@ -41,6 +42,9 @@ a{
     margin-bottom: 30px;
     border-radius: 40px;
     transition: 0.1s all;
+}
+.sideBar .nav i{
+    margin-right: 10px;
 }
 .sideBar a:hover {
     background-color: #2C74B3;
