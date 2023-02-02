@@ -1,0 +1,5 @@
+const quizData = [
+    {
+        question : ""
+    }
+]
