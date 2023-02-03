@@ -1,6 +1,0 @@
-const quizData = [
-    {
-        question : "",
-        a : 
-    }
-]
