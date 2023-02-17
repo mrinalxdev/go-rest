@@ -9,13 +9,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- CUSTOM FONTS  -->
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,400&display=swap" rel="stylesheet">
+    <!-- FONT AWESOME  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
-<body class="bg-black">
+<body class="bg-black ">
     <!-- NAVBAR  -->
     <div class="flex items-center justify-between mt-[5px] mx-[50px] border-white p-5">
         <div>
-            <!-- NAME  -->
-            <span class="text-white font-bold font-['Satoshi'] text-[2rem]">Mrinal</span>
+            <span class="text-white font-bold font-['Satoshi'] text-[2rem]">Mrinal</span><!-- LOGO  -->
         </div>
         <div>
             <nav class="text-white font-sans">
@@ -36,7 +37,7 @@
     <!-- NAVBAR END  -->
 
     <!-- INTRODUCING SECTION -->
-    <div class="text-white border border-1 border-white-700 w-[90%] m-auto p-5 mt-7 rounded-xl flex">
+    <div class="text-white border border-1 border-white-700 w-[90%] m-auto p-8 mt-7 rounded-2xl flex">
         <div>
             <img src="Asset/asset-2.png" class="w-[490px] rounded-full">
         </div>
@@ -48,15 +49,60 @@
                 <p class="mt-5 text-lg">A <span class="text-2xl font-bold text-lime-400 font-['Satoshi']">Full-Stack Developer</span> Based in India. Bringing up new ideas to hack upon them and make lives more easier. A passion to build a highly scalable and quality product with my sets of skills and knowledge.</p>
                 <!-- BUTTONS -->
                 <div class="mt-5">
-                    <button class="border border border-lime-400 border-3 py-2 px-8 rounded-full mr-3 hover:bg-lime-400 hover:text-black hover:border hover-border-3 hover:border-lime-400 duration-200 ease-in-out text-[17px]">My Resume</button>
-                    <button class="bg-lime-400 text-black rounded-full px-8 py-2 hover:bg-black hover:text-white hover:border hover-border-3 hover:border-lime-400 duration-200 ease-in-out text-[18px]">Github</button>
+                    <button class="border border border-lime-400 border-3 py-2 px-8 rounded-full mr-3 hover:bg-lime-400 hover:text-black hover:border hover-border-3 hover:border-lime-400 duration-200 ease-in-out text-[17px]"> My Resume</button>
+                    <button class="border-3 border-lime-400 bg-lime-400 text-black rounded-full px-8 py-2 hover:bg-black hover:text-white hover:border hover-border-2 hover:border-lime-400 duration-200 ease-in-out text-[18px]">  <a href="https://github.com/mrinalxdev">Github</a> <i class="fa-brands fa-github fa-fw"></i></button>
                 </div>
             </div>
         </div>
-
-
     </div>
     <!-- INTRODUCING SECTION END -->
+
+    <div>
+        <!-- TECH STACKS HEADING-->
+        <div class="text-white mt-[6rem] ">
+            <h1 class="text-center font-['Satoshi'] text-4xl">Technologies I ❤️ :</h1>
+        </div>
+<br>
+
+        <!-- MAIN TEXT STACK SECTION  -->
+        <div class="mt-5 block w-[70%] m-auto mb-5 p-8  rounded-3xl">
+           <ul class="text-white">
+            <li>
+                <div class="flex items-center">
+                    <h1 class="ml-6 font-mono text-2xl ">Languages --> </h1>
+                    <abbr title="TypeScript"><img src="https://cdn.iconscout.com/icon/free/png-256/typescript-1-1175078.png?f=avif&w=128" class="w-[90px] mr-6 ml-6 rounded-2xl" ></abbr>
+                    <abbr title="Javascript"><img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png?f=avif&w=128" class="w-[90px] mr-6"></abbr>
+                    <abbr title="Golang"><img src="https://cdn.iconscout.com/icon/free/png-256/go-77-1175166.png?f=avif&w=128" class="w-[90px] mr-6"></abbr> 
+                    <abbr title="Solidity"><img src="https://cdn.iconscout.com/icon/premium/png-256-thumb/solana-4983415-4140737.png?f=avif&w=128" class="w-[90px] mr-6"></abbr>
+                </div>
+            </li>
+            <li>
+                <div class="flex items-center mt-[3rem]">
+                    <h1 class="ml-6 font-mono text-2xl ">Frontend --> </h1>
+                    <abbr title="React"><img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png?f=avif&w=128" class="w-[90px] mr-6 ml-6 rounded-2xl" ></abbr>
+                    <abbr title="HTML"><img src="https://cdn.iconscout.com/icon/free/png-256/html-2752158-2284975.png?f=avif&w=128" class="w-[90px] mr-6"></abbr>
+                    <abbr title="Tailwind CSS"><img src="Asset/tailwind.png" class="w-[90px] mr-6"></abbr> 
+                    <abbr title="Redux"><img src="https://cdn.iconscout.com/icon/free/png-256/redux-3521674-2945118.png?f=avif&w=128" class="w-[90px] mr-6"></abbr>
+                </div>
+            </li>
+            <li>
+                <div class="flex items-center mt-[3rem]">
+                    <h1 class="ml-6 font-mono text-2xl ">Backend --> </h1>
+                    <abbr title="Node & Express"><img src="https://cdn.iconscout.com/icon/free/png-256/node-js-1-1174935.png?f=avif&w=128" class="w-[90px] mr-6 ml-6 rounded-2xl" ></abbr>
+                    <abbr title="Firebase"><img src="https://cdn.iconscout.com/icon/free/png-256/firebase-3521427-2944871.png?f=avif&w=128" class="w-[90px] mr-6"></abbr>
+                    <abbr title="GraphQL"><img src="https://cdn.iconscout.com/icon/free/png-256/graphql-3521468-2944912.png?f=avif&w=128" class="w-[90px] mr-6"></abbr> 
+                </div>
+            </li>
+           </ul>
+        </div>
+    </div>
+    <!-- END OF SKILL SHOWCASE  -->
+
+    <!-- PROJECT SHOWCASE -->
+    <!-- PROJECT SHOWCASE END -->
+
+
+
 
 </body>
 </html>
