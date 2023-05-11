@@ -94,7 +94,9 @@ const AuthForm = () => {
           </div>
 
           <div className="mt-6 flex gap-2">
-            <AuthSocialButton />
+            <AuthSocialButton 
+              icon={BsGithub}
+            />
           </div>
         </div>
       </div>
