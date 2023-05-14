@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AuthForm from "./components/AuthForm"
 import logo from "../../public/imgaes/logo.png";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           Sign In to your account
         </h2>
       </div>
+      <AuthForm />
     </div>
   );
 }
