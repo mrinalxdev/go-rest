@@ -7,6 +7,7 @@ import Button from "@/app/components/Button";
 import AuthSocialButton from "./AuthSocialButton";
 import { BsGithub } from "react-icons/bs";
 import { BsGoogle } from "react-icons/bs";
+import axios from "axios";
 
 type Variant = "LOGIN" | "REGISTER";
 
@@ -38,7 +39,7 @@ const AuthForm = () => {
     setIsLoading(true);
 
     if (variant === "REGISTER") {
-      //Axios Register
+      axios.post('/api/register', data)
     }
     if (variant === "LOGIN") {
       //NextAuth SignIn
@@ -52,7 +53,7 @@ const AuthForm = () => {
   };
 
   return (
-    <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-full">
+    <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-[600px]">
       <div className="bg-white px-4 py-6 shadow-lg sm:rounded-lg sm:px-10 ">
         <form className="space-y-6" onSubmit={handleSubmit(onSubmit)}>
           {variant === "REGISTER" && (
