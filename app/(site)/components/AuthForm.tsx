@@ -52,6 +52,7 @@ const AuthForm = () => {
     if (variant === "REGISTER") {
       axios
         .post("/api/register", data)
+        .then(() => signIn('credentials', data))
 
         .catch(() => toast.error("Something went Wrong"))
         .finally(() => setIsLoading(false));
@@ -70,6 +71,7 @@ const AuthForm = () => {
         }
       })
       .finally(() => setIsLoading(false))
+      router.push('/users')
 
     }
   };
