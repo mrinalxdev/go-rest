@@ -80,6 +80,9 @@ export async function POST(request: Request) {
         users: true,
       },
     });
+
+    return NextResponse.json(newConversation)
+
   } catch (error: any) {
     return new NextResponse("Internal Error 500");
   }
